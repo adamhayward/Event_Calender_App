@@ -18,112 +18,121 @@
 </head>
 
 <body>
-  <div id="clock">clock</div>
+  <div id="clock">clock</div>  
   <header class="jumbotron">
-    <h1 class="display-3">Work Day Scheduler</h1>
-    <p id="currentDay" class="lead"></p>
-    <p id="currentDate" class="lead"></p>
+    <h1 class="display-3">work day scheduler</h1>
+    <h3 id="currentDay" class="lead"></h3>
+    <h3 id="currentDate" class="lead"></h3>
   </header>
   <div class="container">
     <div class="row no-gutters">
+      <div class="col-1 hour"></div>
+      <div class="col-10 time-block">
+        <textarea placeholder="enter event notes here" style="text-align: center;"></textarea>
+      </div>
+      <div class="col-1">
+        <button class="saveBtn icon"></button>
+      </div>
+    </div>
+    <div class="row no-gutters">
       <div class="col-1 hour">
-        <p>9AM</p>
+        <p></p>
       </div>
       <div class="col-10 time-block">
-        <textarea></textarea>
+        <textarea placeholder="enter event notes here" style="text-align: center;"></textarea>
       </div>
       <div class="col-1">
-        <button class="saveBtn"><img src="./lib/images/addtask.png"></button>
+        <button class="saveBtn icon"></button>
       </div>
     </div>
+    
+
     <div class="row no-gutters">
       <div class="col-1 hour">
-        <p>10AM</p></div>
-      <div class="col-10">
-        <textarea></textarea>
-      </div>  
-      <div class="col-1">
-        <button class="saveBtn"><img src="./lib/images/addtask.png"></button>
-      </div>
-    </div>
-    <div class="row no-gutters">
-      <div class="col-1 hour">
-        <p>11AM</p>
+        <p></p>
       </div>
       <div class="col-10">
         <textarea></textarea>
       </div>
       <div class="col-1">
-        <button class="saveBtn"><img src="./lib/images/addtask.png"></button>
+        <button class="saveBtn"></button>
       </div>
     </div>
+
     <div class="row no-gutters">
       <div class="col-1 hour">
-        <p>12PM</p>
+        <p></p>
       </div>
       <div class="col-10">
         <textarea></textarea>
       </div>
       <div class="col-1">
-        <button class="saveBtn"><img src="./lib/images/addtask.png"></button>
+        <button class="saveBtn"></button>
       </div>
     </div>
+
     <div class="row no-gutters">
       <div class="col-1 hour">
-        <p>1PM</p>
+        <p></p>
       </div>
       <div class="col-10">
         <textarea></textarea>
       </div>
       <div class="col-1">
-        <button class="saveBtn"><img src="./lib/images/addtask.png"></button>
+        <button class="saveBtn"></button>
       </div>
     </div>
+
     <div class="row no-gutters">
       <div class="col-1 hour">
-        <p>2PM</p>
+        <p></p>
       </div>
       <div class="col-10">
         <textarea></textarea>
       </div>
       <div class="col-1">
-        <button class="saveBtn"><img src="./lib/images/addtask.png"></button>
+        <button class="saveBtn"></button>
       </div>
     </div>
+
     <div class="row no-gutters">
       <div class="col-1 hour">
-        <p>3PM</p>
+        <p></p>
       </div>
       <div class="col-10">
         <textarea></textarea>
       </div>
       <div class="col-1">
-        <button class="saveBtn"><img src="./lib/images/addtask.png"></button>
+        <button class="saveBtn"></button>
       </div>
     </div>
+
     <div class="row no-gutters">
       <div class="col-1 hour">
-        <p>4PM</p>
+        <p></p>
       </div>
       <div class="col-10">
         <textarea></textarea>
       </div>
       <div class="col-1">
-        <button class="saveBtn"><img src="./lib/images/addtask.png"></button>
+        <button class="saveBtn"></button>
       </div>
     </div>
+
     <div class="row no-gutters">
-      <div class="col-1 hour">
-        <p>5PM</p>
-      </div>
-      <div class="col-10">
+      <div class="col-1 hour"></div>
+         <div class="col-10">
         <textarea></textarea>
       </div>
       <div class="col-1">
-        <button class="saveBtn"><img src="./lib/images/addtask.png"></button>
+        <button class="saveBtn"></button>
       </div>
     </div>
   </div>
+  <footer>
+    <h1>created by</h1>
+  </footer>
+
   <script src="lib/js/moment/moment.min.js"></script>
   <script src="lib/js/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

@@ -1,5 +1,5 @@
 body {
-  font-family: 'Kanit', sans-serif;;
+  font-family: 'Kanit', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -42,11 +42,16 @@ p {
   border-top: 1px solid white;;
 }
 
-.hour {
+ .hour { 
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
-}
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Wallpoet', cursive;
+} 
 
 .past {
   background-color: #d3d3d3;
@@ -64,6 +69,17 @@ p {
 }
 
 .saveBtn {
+  width: 60px;
+  height: 80px;
+  margin: 0px;
+  border-width: 2.5px;
+  border-left: 0px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: white;
+}
+.saveBtn2 {
+  width: 60px;
   height: 80px;
   margin: 0px;
   border-width: 2.5px;
@@ -99,10 +115,15 @@ p {
 }
 
 .icon {
-  width: 50%;
-  height: auto;
+  
+  background: url(./lib/images/addtask.png) no-repeat center;
+  background-color: rgb(117, 116, 116);
 }
-/*   */
+.iconClicked {
+  background: url(./lib/images/taskadded.png) no-repeat center;
+  background-color: greenyellow;
+}
+
 #currentDay {
   font-size: 50px;
   display: flex;
