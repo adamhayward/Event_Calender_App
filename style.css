@@ -1,9 +1,11 @@
+/* Responisble for over document styling */
 body {
   font-family: 'Kanit', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
+/* Responsible for styling of event input data */
 textarea{
   background: transparent;
   width: 100%;
@@ -14,11 +16,12 @@ textarea{
   border-left: 1px solid black;
   padding: 10px;
 }
-
+/* Formating for all <p> tags  */
 p {
   text-align: right;
 }
 
+/* Heading styling */
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -27,22 +30,24 @@ p {
   border-bottom: 10px solid black;
 }
 
+/* Assigned class for event input data */
 .description{
   white-space: pre-wrap;
 }
 
+/* Assigned to the event input data parrent element */
 .time-block{
   text-align: center;
   border-radius: 15px;
 }
 
+/* Row stying */
 .row {
-  /* white-space: pre-wrap; */
   height: 80px;
   border-top: 1px solid white;;
 }
 
-
+/*  Styling for the hour field */
 .hourField {
   background-color: #ffffff;
   color: #000000;
@@ -54,21 +59,25 @@ p {
 
 }
 
+/* Class responsible for past hours styling */
 .past {
   background-color: #d3d3d3;
   color: white;
 }
 
+/* Class responsible for current hour styling */
 .present{
   background-color: #ff6961;
   color: white;
 }
 
+/* Class responsible for future hours styling */
 .future {
   background-color: #77dd77;
   color: white;
 }
 
+ /* Class responisble for styling the save buttons */ 
 .saveBtn {
   width: 60px;
   height: 80px;
@@ -79,24 +88,8 @@ p {
   border-bottom-right-radius: 15px;
   color: white;
 }
-.saveBtn2 {
-  width: 60px;
-  height: 80px;
-  margin: 0px;
-  border-width: 2.5px;
-  border-left: 0px;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  
-  background-color: rgb(117, 116, 116);
-  color: white;
-}
 
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
-}
-/* styles the clock at top right of page */
+/* Styles the clock at top right of page */
 #clock {
   float: right;
   margin:25px;
@@ -115,16 +108,19 @@ p {
   color: greenyellow;
 }
 
+/* Styles initial save button icon */
 .icon {
   
   background: url(./lib/images/addtask.png) no-repeat center;
   background-color: rgb(117, 116, 116);
 }
+/*  Styles alternate icon */
 .iconClicked {
   background: url(./lib/images/taskadded.png) no-repeat center;
   background-color: greenyellow;
 }
 
+/*  Styles current day data */
 #currentDay {
   font-size: 50px;
   display: flex;
@@ -132,6 +128,7 @@ p {
   justify-content: center;
 }
 
+/*  Stayles current date data */
 #currentDate {
   font-size: 30px;
   display: flex;
