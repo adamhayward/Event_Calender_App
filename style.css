@@ -61,13 +61,13 @@ p {
 
 /* Class responsible for past hours styling */
 .past {
-  background-color: #d3d3d3;
+  background-color: #ff6961;
   color: white;
 }
 
 /* Class responsible for current hour styling */
 .present{
-  background-color: #ff6961;
+  background-color: #d3d3d3;
   color: white;
 }
 
